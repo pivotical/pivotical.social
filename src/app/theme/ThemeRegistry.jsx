@@ -6,17 +6,17 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { Roboto } from "next/font/google";
 import NextAppDirEmotionCacheProvider from "./EmotionCache";
 
-const roboto = Roboto({
-  weight: ["300", "400", "500", "700"],
-  style: ["normal", "italic"],
-  subsets: ["latin"],
-});
+// const roboto = Roboto({
+//   weight: ["300", "400", "500", "700"],
+//   style: ["normal", "italic"],
+//   subsets: ["latin"],
+// });
 
 const themeOptions = {
-  typography: {
-    fontSize: 12,
-    fontFamily: roboto.style.fontFamily,
-  },
+  // typography: {
+  //   fontSize: 12,
+  //   fontFamily: roboto.style.fontFamily,
+  // },
   palette: {
     background: {
       // pink

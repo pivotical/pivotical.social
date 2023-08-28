@@ -1,7 +1,9 @@
-import ResponsiveAppBar from './components/NavBar'
 import './globals.css'
+import { Inter } from 'next/font/google'
 import ThemeRegistry from './theme/ThemeRegistry'
+import ResponsiveAppBar from './components/NavBar'
 
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,11 +13,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <ThemeRegistry >
-        <body>
-          <ResponsiveAppBar />
-          {children}</body>
-      </ThemeRegistry>
+      <ThemeRegistry>
+      <body className={inter.className}>
+        <ResponsiveAppBar/>
+        {children}</body>
+     </ThemeRegistry>
     </html>
   )
 }
