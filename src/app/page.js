@@ -1,8 +1,10 @@
+import LandingSection from "./components/LandingSection";
 
 export default function Home() {
   return (
     <main>
-      Home Page
+      <LandingSection/>
+      <div>temp section</div>
     </main>
   )
 }

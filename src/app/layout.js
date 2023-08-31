@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import ThemeRegistry from './theme/ThemeRegistry'
-import ResponsiveAppBar from './components/NavBar'
+import NavBar from './components/NavBar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,8 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <ThemeRegistry>
       <body className={inter.className}>
-        <ResponsiveAppBar/>
-        {children}</body>
+          <NavBar/>
+          {children}
+        </body>
      </ThemeRegistry>
     </html>
   )

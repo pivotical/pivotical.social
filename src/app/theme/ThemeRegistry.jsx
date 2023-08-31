@@ -17,19 +17,29 @@ const themeOptions = {
   //   fontSize: 12,
   //   fontFamily: roboto.style.fontFamily,
   // },
+
   palette: {
     background: {
-      // pink
-      default: "#ffffff",
+      // light background
+      default: "#F6F1F2",
+  
     },
     primary: {
-      main: "#1976d2",
+      //main Brand color
+      main: "#a09195",
+      
     },
     text: {
-      primary: "#300000",
+      //main text colour
+      primary: "#40363C",
     },
+
+    
+
   },
 };
+
+
 
 const theme = createTheme(themeOptions);
 
