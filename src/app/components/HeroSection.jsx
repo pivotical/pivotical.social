@@ -13,7 +13,7 @@ const HeroSection = () => {
         <main id='home' className=' relative flex items-center text-dark w-full h-auto md:pt-4 scroll-mt-28'>
             <div className="inline-block z-0  bg-light p-8 md:px-16 md:pt-3 pt-0 w-full">
                 <div className='flex flex-col md:flex-row items-center justify-between w-full'>
-                    <div className="w-full mt-0 md:mt-4 md:w-1/2 flex flex-col items-center md:items-start self-center md:self-start px-4 md:px-0 ">
+                    <div className="w-full mt-0 md:mt-4 md:w-1/2 flex flex-col items-center md:items-start self-center md:self-start px-4 md:px-0">
                         <MainHeading text='Boost Your Social Media Presence Today' className='!text-4xl md:!text-6xl !text-center md:!text-left font-bold' />
                         <p className='my-4 text-base md:text-lg md:text-left font-light'>
                             We offera range of social media marketing services to help you grow your online presence.From content creation to audience engagement,we've got you covered.
@@ -41,7 +41,7 @@ const HeroSection = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="w-full md:w-1/2 flex items-center justify-center">
+                    <div className="w-full md:w-1/2 flex items-center justify-center ">
                         <Image src={HeroPic}
                             quality={100}
                             priority={true}
