@@ -1,10 +1,9 @@
-import LandingSection from "./components/LandingSection";
+import HeroSection from './components/HeroSection'
 
 export default function Home() {
   return (
-    <main>
-      <LandingSection/>
-      <div>temp section</div>
-    </main>
+   <>
+   <HeroSection/>
+   </>
   )
 }

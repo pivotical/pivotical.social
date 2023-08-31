@@ -1,139 +1,38 @@
 "use client"
-import React, { useState } from 'react';
-import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
-import { colour } from '../theme/CustomPallet';
+import React, { useState } from 'react'
+import { FaBars, FaTimes } from 'react-icons/fa'
+import { Link as SmoothScroll } from 'react-scroll'
+import { links } from '../utils/data'
 
-const pages = ['Products', 'Pricing', 'Blog'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
-
-function NavBar() {
-    const [anchorElNav, setAnchorElNav] = useState(null);
-    const [anchorElUser, setAnchorElUser] = useState(null);
-
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
-    const handleOpenUserMenu = (event) => {
-        setAnchorElUser(event.currentTarget);
-    };
-
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
-
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
-    };
+const NavBar = () => {
+    const [nav, setNav] = useState(false)
 
     return (
-        <AppBar position="sticky">
-            <Container maxWidth="xl">
-                <Toolbar disableGutters>
-                    <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="a"
-                        href="/"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        LOGO
-                    </Typography>
+        <header className='z-[999] relative'>
+        <div className='fixed top-0 px-4 flex justify-between items-center w-full h-16 border border-white border-opacity-40 bg-white
+            bg-opacity-80 shadow-lg shadow-black/[0.3] backdrop-blur-[0.5rem] text-gray-950 font-semibold '>
+            <div >
+                <h2 className='text-3xl  ml-2'>
+                    Logo
+                </h2>
+            </div>
+            <ul className='hidden md:flex'>
+                {links.map(({ link, id }) => (
+                    <li key={id} className='px-4 cursor-pointer capitalize font-semibold text-gray-950 hover:scale-105 duration-200  hover:text-gray-500'> <SmoothScroll to={link} smooth duration={500}>{link}</SmoothScroll></li>
+                ))}
+            </ul>
+            <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-black md:hidden'>
+                {nav ? <FaTimes className=' hover:text-gray-500' size={30} /> : <FaBars className=' hover:text-gray-500' size={30} />}
+            </div>
+            {nav && <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-white to-gray-800 text-black'>
+                {links.map(({ link, id }) => (
+                    <li key={link} className='px-4 cursor-pointer capitalize py-6 text-2xl hover:scale-105 duration-200 hover:text-gray-500'><SmoothScroll onClick={() => setNav(false)} to={link} smooth duration={500}>{link}</SmoothScroll></li>
+                ))}
+            </ul>}
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                        <IconButton
-                            size="large"
-                            aria-label="account of current user"
-                            aria-controls="menu-appbar"
-                            aria-haspopup="true"
-                            onClick={handleOpenNavMenu}
-                            color="inherit"
-                        >
-                            <MenuIcon />
-                        </IconButton>
-                        <Menu
-                            id="menu-appbar"
-                            anchorEl={anchorElNav}
-                            anchorOrigin={{
-                                vertical: 'bottom',
-                                horizontal: 'left',
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'left',
-                            }}
-                            open={Boolean(anchorElNav)}
-                            onClose={handleCloseNavMenu}
-                            sx={{
-                                display: { xs: 'block', md: 'none' },
-                            }}
-                        >
-                            {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
-                                </MenuItem>
-                            ))}
-                        </Menu>
-                    </Box>
-                    <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-                    <Typography
-                        variant="h5"
-                        noWrap
-                        component="a"
-                        href="/"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'flex', md: 'none' },
-                            flexGrow: 1,
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        LOGO
-                    </Typography>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
-                            >
-                                {page}
-                            </Button>
-                        ))}
-                    </Box>
-
-                    <Box sx={{ flexGrow: 0 }}>
-                        <Button variant="contained" sx={{backgroundColor:colour.darkShade}} >Let's Talk</Button>
-                        
-                    </Box>
-                </Toolbar>
-            </Container>
-        </AppBar>
-    );
+        </div>
+        </header >
+    )
 }
-export default NavBar;
+
+export default NavBar
