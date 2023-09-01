@@ -17,16 +17,16 @@ const NavBar = () => {
                     </h2>
                 </div>
                 <ul className='hidden md:flex'>
-                    {links.map(({ link, id }) => (
-                        <li key={id} className='px-4 cursor-pointer capitalize font-semibold text-gray-950 hover:scale-105 duration-200  hover:text-gray-500'> <Link href={`#${link}`}>{link}</Link></li>
+                    {links.map(({ link, id,name }) => (
+                        <li key={id} className='px-4 cursor-pointer capitalize font-semibold text-gray-950 hover:scale-105 duration-200  hover:text-gray-500'> <Link href={link}>{name}</Link></li>
                     ))}
                 </ul>
                 <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-black md:hidden'>
                     {nav ? <FaTimes className=' hover:text-gray-500' size={30} /> : <FaBars className=' hover:text-gray-500' size={30} />}
                 </div>
                 {nav && <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-white to-gray-800 text-black'>
-                    {links.map(({ link, id }) => (
-                        <li key={link} className='px-4 cursor-pointer capitalize py-6 text-2xl hover:scale-105 duration-200 hover:text-gray-500'><Link onClick={() => setNav(false)} href={`#${link}`}>{link}</Link></li>
+                    {links.map(({ link,name, id }) => (
+                        <li key={link} className='px-4 cursor-pointer capitalize py-6 text-2xl hover:scale-105 duration-200 hover:text-gray-500'><Link onClick={() => setNav(false)} href={link}>{name}</Link></li>
                     ))}
                 </ul>}
 
