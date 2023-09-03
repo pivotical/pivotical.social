@@ -36,8 +36,8 @@ const Footer = () => {
                             </p>
                             <form action="#" className="mt-2">
                                 <div className="flex items-center">
-                                    <input type="email" className="w-full px-2 py-4 mr-2  bg-gray-100 shadow-inner rounded-md border border-gray-400 focus:outline-none" required />
-                                    <button className="bg-black text-gray-200 px-5 py-2 rounded shadow " style={{ marginLeft: "-7.8rem" }}>Sign Up</button>
+                                    <input type="email"  placeholder='example@gmail.com' className="w-full px-2 py-4 mr-2  bg-gray-100 shadow-inner rounded-md border border-gray-400 focus:outline-none" required />
+                                    <button  className="bg-black text-gray-200 px-5 py-2 rounded shadow " style={{ marginLeft: "-7.8rem" }}>Sign Up</button>
                                 </div>
                             </form>
                         </div>
