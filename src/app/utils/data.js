@@ -40,7 +40,7 @@ export const footerlinks = [
     },
     {
         id: 1,
-        section: 'SocialMediaaaa',
+        section: 'SocialMedia',
         sectionlinks:[
             {
                 id: 12345,
@@ -81,4 +81,13 @@ export const footerlinks = [
         ]
     },
    
+]
+
+
+export const ourMethods=[
+    {
+        id: 1,
+        name: 'home',
+        link: '/'
+    },
 ]
