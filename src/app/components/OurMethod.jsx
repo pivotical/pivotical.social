@@ -16,20 +16,21 @@ const OurMethod = () => {
                         <section class="text-gray-600">
                             <div class="container px-5 py-16 mx-auto">
                                 <div class="flex flex-wrap -m-4">
-                                    {ourMethods.map(({icon,title,description,id}) => (
-                                        <div class="p-4 lg:w-1/3 " key={id}>
-                                            <div class="h-full flex flex-col items-center justify-center bg-gradient-to-r from-slate-100 to-slate-300 bg-opacity-75 px-8 pt-16 pb-24  rounded-lg overflow-hidden text-center relative shadow-lg hover:from-zinc-100 hover:to-zinc-400 transition hover:scale-105 ">
-                                                <div>
-                                                    {icon}
+                                    {
+                                        ourMethods.map(({ icon, title, description, id }) => (
+                                            <div class="p-4 lg:w-1/3 " key={id}>
+                                                <div class="h-full flex flex-col items-center justify-center bg-gradient-to-r from-slate-100 to-slate-300 bg-opacity-75 px-8 pt-16 pb-24  rounded-lg overflow-hidden text-center relative shadow-lg hover:from-zinc-100 hover:to-zinc-400 transition hover:scale-105 ">
+                                                    <div>
+                                                        {icon}
+                                                    </div>
+                                                    <h1 class=" sm:text-2xl text-xl font-bold text-gray-900 mb-3">{title}</h1>
+                                                    <p class="leading-relaxed mb-3 text-base">{description}</p>
+                                                    <a class="text-indigo-500 inline-flex items-center cursor-pointer">Learn More <BsBoxArrowInUpRight />
+                                                    </a>
                                                 </div>
-                                                <h1 class=" sm:text-2xl text-xl font-bold text-gray-900 mb-3">{title}</h1>
-                                                <p class="leading-relaxed mb-3">{description}</p>
-                                                <a class="text-indigo-500 inline-flex items-center">Learn More <BsBoxArrowInUpRight />
-                                                </a>
                                             </div>
-                                        </div>
 
-                                    ))}
+                                        ))}
                                 </div>
                             </div>
                         </section>

@@ -36,7 +36,7 @@ const HeroSection = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="w-full mt-8 md:w-1/2 flex items-center justify-center  ">
+                    <div className=" hidden w-full mt-8 md:w-1/2 md:flex items-center justify-center  ">
                         <Image src={HeroPic}
                             quality={100}
                             priority={true}

@@ -11,7 +11,7 @@ import ServiceCards from './elements/ServiceCards';
 
 const AboutUs = () => {
     return (
-        <main id='about' className=' relative flex items-center  w-full h-auto md:pt-4 scroll-mt-28'>
+        <main id='about' className='relative flex items-center  w-full h-auto md:pt-4 scroll-mt-28'>
             <div className="inline-block z-0  bg-light p-8 md:px-16 md:pt-3 pt-0 w-full">
                 <div className='flex flex-col md:flex-row items-center justify-between w-full'>
                     <div className="w-full mt-0 md:mt-4  flex flex-col items-center  self-center px-4 lg:px-0">

@@ -14,11 +14,7 @@ export const links = [
         link: '#about'
     },
 
-    {
-        id: 1,
-        name: 'contact',
-        link: '#contact'
-    },
+
 ]
 export const footerlinks = [
     {
@@ -93,18 +89,18 @@ export const ourMethods = [
         id: 12345,
         title: "Raclette Blueberry Nextious Level",
         description: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-        icon: <FaBuffer size={24} className="w-6 font-extrabold text-2xl text-black" />
+        icon: <FaBuffer size={30} className="w-10 font-extrabold text-2xl text-black" />
     },
     {
         id: 45678,
         title: "Raclette Blueberry Nextious Level",
         description: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-        icon: <FcReading size={24} className="w-6 font-extrabold text-2xl text-black" />
+        icon: <FcReading size={30} className="w-10 font-extrabold text-2xl text-black" />
     },
     {
         id: 345678,
         title: "Raclette Blueberry Nextious Level",
         description: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-        icon: <FaCanadianMapleLeaf size={24} className="w-6 font-extrabold text-2xl text-black" />
+        icon: <FaCanadianMapleLeaf size={30} className="w-10 font-extrabold text-2xl text-black" />
     },
 ]
