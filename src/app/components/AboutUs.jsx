@@ -22,12 +22,6 @@ const AboutUs = () => {
                             We offera range of social media marketing services to help you grow your online presence.From content creation to audience engagement,we've got you covered.
                         </p>
                         <div className='w-full flex items-center justify-center  mt-2'>
-                            <div class="grid gap-4 md:grid-cols-2 px-8">
-                                <ServiceCards />
-                                <ServiceCards />
-                                <ServiceCards />
-                                <ServiceCards />
-                            </div>
                         </div>
                     </div>
                 </div>
