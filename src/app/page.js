@@ -5,10 +5,11 @@ import OurMethod from './components/OurMethod'
 
 export default function Home() {
   return (
-   <>
-   <HeroSection/>
-  <FeatureTop/>
-   <AboutUs/>
-   </>
+    <>
+      <HeroSection />
+      <FeatureTop />
+      <AboutUs />
+      <OurMethod />
+    </>
   )
 }
