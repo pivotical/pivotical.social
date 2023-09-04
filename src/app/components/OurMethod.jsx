@@ -12,7 +12,9 @@ const OurMethod = () => {
                 <div className='flex flex-col md:flex-row items-center justify-between w-full'>
                     <div className="w-full mt-0 md:mt-4  flex flex-col items-center  self-center px-4 lg:px-0">
                         <MainHeading text='Streamline your Marketing Process' className='!text-3xl md:!text-4xl !text-center font-bold lg:px-72' />
-                        <p class="leading-relaxed mb-3 text-xl">hello something here</p>
+                        <p className='my-4 text-base md:text-lg md:text-center font-light  lg:px-36'>
+                            We offera range of social media marketing services to help you grow your online presence.From content creation to audience engagement,we've got you covered.
+                        </p>
                         <section class="text-gray-600">
                             <div class="container px-5 py-16 mx-auto">
                                 <div class="flex flex-wrap -m-4">
