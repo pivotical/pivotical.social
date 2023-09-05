@@ -16,10 +16,9 @@ const AboutUs = () => {
                 <div className='flex flex-col md:flex-row items-center justify-between w-full'>
                     <div className="w-full mt-0 md:mt-4  flex flex-col items-center  self-center px-4 lg:px-0">
                         {/* <MainHeading text='About Us' className=' !text-4xl md:!text-5xl !text-center  font-bold md:px-36 mb-14' /> */}
-                        <MainHeading text='" Discover the Power of Social Media Marketing for your Business "' className=' !text-3xl md:!text-4xl !text-center font-semibold lg:px-72' />
+                        <MainHeading text='" Pillars of our Success "' className=' !text-3xl md:!text-4xl !text-center font-semibold lg:px-72' />
                         <p className='my-4 text-base md:text-lg md:text-center font-light  lg:px-36'>
-                            We offera range of social media marketing services to help you grow your online presence.From content creation to audience engagement,we've got you covered.
-                            We offera range of social media marketing services to help you grow your online presence.From content creation to audience engagement,we've got you covered.
+                        We "Pivot", and "-ical(meaning: of or pertaining to)" refer to the fact that we are guided by a growth mindset and the right tone. 
                         </p>
                         <div className='w-full flex items-center justify-center  mt-2'>
                         </div>

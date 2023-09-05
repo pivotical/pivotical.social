@@ -59,27 +59,6 @@ export const footerlinks = [
             },
         ]
     },
-    {
-        id: 1567,
-        section: 'home',
-        sectionlinks: [
-            {
-                id: 1612,
-                href: 'footerlinkssss',
-                name: 'footerlinkssss'
-            },
-            {
-                id: 1613,
-                href: 'about',
-                name: 'footerlinkssss'
-            },
-            {
-                id: 16634,
-                href: 'about',
-                name: 'footerlinkssss'
-            },
-        ]
-    },
 
 ]
 
@@ -103,4 +82,14 @@ export const ourMethods = [
         description: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
         icon: <FaCanadianMapleLeaf size={30} className="w-10 font-extrabold text-2xl text-black" />
     },
+    
+]
+
+export const serviceList=[
+"Personal Digital Branding",
+ "Business Digital Branding",
+ "Digital Marketing",
+ "Data Analytics",
+ "Web-Development",
+ "Education(Courses, Workshops, and Bootcamps)"
 ]

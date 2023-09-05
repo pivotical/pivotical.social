@@ -1,4 +1,5 @@
 import AboutUs from './components/AboutUs'
+import ContactUs from './components/ContactUs'
 import FeatureTop from './components/FeatureTop'
 import HeroSection from './components/HeroSection'
 import OurMethod from './components/OurMethod'
@@ -26,6 +27,9 @@ export default function Home() {
       <SectionDivider />
 
       <OurMethod />
+      <SectionDivider />
+
+      <ContactUs/>
       <SectionDivider />
 
     </>

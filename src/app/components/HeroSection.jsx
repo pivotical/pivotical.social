@@ -17,7 +17,7 @@ const HeroSection = () => {
                         <MainHeading text='A Fusion of Creativity and Data for Your Digital Branding and Marketing Success.' className='!text-4xl md:!text-5xl !text-center md:!text-left font-bold  ' />
 
                         <div className='flex items-center justify-center md:items-start mt-24'>
-                            <Link href={""}>
+                            <Link href={"#ContactUs"}>
                                 <Button
                                     icon={<AiOutlineContacts size={24} className="w-6 ml-1" />}
                                     classnames={`hover:text-black hover:bg-white hover:scale-110  `}
