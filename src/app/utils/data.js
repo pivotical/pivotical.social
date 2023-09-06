@@ -66,20 +66,24 @@ export const footerlinks = [
 export const ourMethods = [
     {
         id: 12345,
-        title: "Raclette Blueberry Nextious Level",
-        description: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-        icon: <FaBuffer size={30} className="w-10 font-extrabold text-2xl text-black" />
+        title: "Learn",
+        description: "We dive deep to learn our client's precise needs and expectations.",
+        hashTags:"#CustomerObsession #Ownership",
+        icon: <FcReading size={30} className="w-10 font-extrabold text-2xl text-black" />
+        
     },
     {
         id: 45678,
-        title: "Raclette Blueberry Nextious Level",
-        description: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
-        icon: <FcReading size={30} className="w-10 font-extrabold text-2xl text-black" />
+        title: "Create",
+        description: "We then use our own resources(for eg.initial test Ads nd) to cra pioneering solutions intricately designed to create a profound impact on the digital landscape that can generate unparalleled buzz across the internet and social media platforms.",
+        hashTags:"#InventandSimplify #EarnTrust #Frugality",
+        icon: <FaBuffer size={30} className="w-10 font-extrabold text-2xl text-black" />
     },
     {
         id: 345678,
-        title: "Raclette Blueberry Nextious Level",
-        description: "Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.",
+        title: "Innovate",
+        description: "That's when we leverage data-driven insights, conducting comprehensive analyti to drive tailored ongoing innovation, spearheading our position to be the best marketing campaign that remains unrivaled, even bythe most sophisticated algorithms.",
+        hashTags:"#BiasforAction #ThinkBIG #DeliverResults",
         icon: <FaCanadianMapleLeaf size={30} className="w-10 font-extrabold text-2xl text-black" />
     },
     
