@@ -11,7 +11,7 @@ export const links = [
     {
         id: 2,
         name: 'about',
-        link: '#about'
+        link: '/about'
     },
 
 

@@ -1,5 +1,4 @@
 import React from 'react'
-import { MdAttachEmail } from 'react-icons/md';
 import { AiOutlineContacts } from 'react-icons/ai';
 import { FiArrowUpRight } from 'react-icons/fi';
 import MainHeading from './headings/MainHeading';
@@ -10,7 +9,7 @@ import Button from './buttons/Button';
 
 const HeroSection = () => {
     return (
-        <main id='home' className=' relative flex items-center text-dark w-full h-auto md:pt-2 scroll-mt-28'>
+        <main id='home' className=' relative flex items-center text-dark w-full h-auto md:pt-2 mt-28 scroll-mt-28'>
             <div className="inline-block z-0  bg-light p-8 md:px-16 md:pt-1 pt-0 w-full">
                 <div className='flex flex-col md:flex-row items-center justify-between w-full'>
                     <div className="w-full mt-0 md:mt-16 md:w-1/2 flex flex-col items-center md:items-start self-center md:self-start px-4 md:px-0">
