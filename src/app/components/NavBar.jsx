@@ -26,7 +26,7 @@ const NavBar = () => {
                 </ul>
                 <div className='w-auto hidden md:flex'>
                 <Button
-                
+                    
                     icon={<FiArrowUpRight size={24} className="w-6 ml-1" />}
                     classnames={`hover:text-black hover:bg-white hover:scale-110  `}
                     label="Lets Talk"
@@ -41,7 +41,7 @@ const NavBar = () => {
                     {links.map(({ link, name, id }) => (
                         <li key={link} className='px-4 cursor-pointer capitalize py-6 text-2xl hover:scale-105 duration-200 hover:text-gray-500'><Link onClick={() => setNav(false)} href={link}>{name}</Link></li>
                     ))}
-                    <li className='px-4 cursor-pointer capitalize py-6 text-2xl hover:scale-105 duration-200 hover:text-gray-500'><Link onClick={() => setNav(false)} href="#ContactUs" >Lets Talk</Link></li>
+                    <li className='px-4 cursor-pointer capitalize py-6 text-2xl hover:scale-105 duration-200 hover:text-gray-500'><Link onClick={() => setNav(false)} href={"#ContactUs"} >Lets Talk</Link></li>
                 </ul>}
 
             </div>

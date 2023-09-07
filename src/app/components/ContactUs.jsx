@@ -44,10 +44,7 @@ export default function ContactUs() {
           <div class="mb-10 w-full shrink-0 grow-0 basis-auto  md:mt-14 md:mb-0 md:w-6/12 md:px-3 lg:px-6">
             <h2 class="mb-6 text-3xl font-bold">Our Details</h2>
             <p class="mb-6 text-neutral-500">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium, modi accusantium ipsum corporis quia asperiores
-              dolorem nisi corrupti eveniet dolores ad maiores repellendus enim
-              autem omnis fugiat perspiciatis? Ad, veritatis.
+             
             </p>
             <p class="mb-2 text-neutral-500">100 Feet Rd., Indiranagar, Bengaluru KA, India 560038 </p>
             <p class="mb-2 text-neutral-500">+ 91 865(837)-4806</p>

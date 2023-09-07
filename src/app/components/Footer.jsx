@@ -4,17 +4,10 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-
-        <footer className="bg-white ">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <footer className="bg-white">
+            <div className="w-full  md:w-full p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
-                    <div className="mb-6 md:mb-0">
-                        <a href="https://flowbite.com/" className="flex items-center">
-                            {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="FlowBite Logo" /> */}
-                            <span className="self-center text-2xl font-semibold whitespace-nowrap ">Logo</span>
-                        </a>
-                    </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div className="grid grid-cols-2 gap-8  sm:gap-6  sm:pl-6 sm:grid-cols-3">
                         {footerlinks.map(({ id, section, sectionlinks }) => (
                             <div key={id}>
                                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">{section}</h2>

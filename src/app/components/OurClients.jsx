@@ -20,8 +20,8 @@ const OurClients = () => {
                        
                             <ScrollCarousel
                                 autoplay
-                                autoplaySpeed={5}
-                                speed={4}
+                                autoplaySpeed={0.1}
+                                speed={0.1}
                                 onReady={() => console.log('I am ready')}
                             >
                                 {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((item) => (

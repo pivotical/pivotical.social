@@ -24,15 +24,6 @@ const HeroSection = () => {
                                 >
                                 </Button>
                             </Link>
-                            <Link href={"#FeatureTop"} className='ml-5'>
-                                <Button
-                                    outline
-                                    classnames={`hover:text-white hover:bg-black hover:scale-110`}
-                                    icon={<FiArrowUpRight size={24} className="w-6 ml-1" />}
-                                    label="Know More"
-                                >
-                                </Button>
-                            </Link>
                         </div>
                     </div>
                     <div className=" hidden w-full mt-8 md:w-1/2 md:flex items-center justify-center  ">

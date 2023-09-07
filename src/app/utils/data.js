@@ -10,52 +10,75 @@ export const links = [
     },
     {
         id: 2,
-        name: 'about',
+        name: 'Our Story',
         link: '/about'
     },
+    {
+        id: 3,
+        name: 'Our Mission',
+        link: '#OurMission'
+    },
+    {
+        id: 4,
+        name: 'Our Services',
+        link: '/#services'
+    },
+    {
+        id: 5,
+        name: 'Team',
+        link: '/'
+    },
+    
+
+
 
 
 ]
 export const footerlinks = [
     {
         id: 1,
-        section: 'Resources',
+        section: 'Explore More',
         sectionlinks: [
             {
                 id: 112,
-                href: 'footerlinkssss',
-                name: 'footerlinkssss'
+                href: '/',
+                name: 'Home'
             },
             {
                 id: 113,
                 href: 'about',
-                name: 'footerlinkssss'
+                name: 'Our Story'
             },
             {
-                id: 134,
+                id: 114,
+                href: '#OurMission',
+                name: 'Our Mission'
+            },
+            {
+                id: 115,
                 href: 'about',
-                name: 'footerlinkssss'
+                name: 'Our Team'
+            }, 
+            {
+                id: 116,
+                name: 'Our Services',
+                href: '/#services'
+            },
+            {
+                id: 117,
+                href: '/#ContactUs',
+                name: 'Contact Us'
             },
         ]
     },
     {
         id: 1,
-        section: 'SocialMedia',
+        section: 'More',
         sectionlinks: [
             {
                 id: 12345,
                 href: 'footerlinkssss',
-                name: 'footerlinkssss'
-            },
-            {
-                id: 5678,
-                href: 'about',
-                name: 'footerlinkssss'
-            },
-            {
-                id: 345678,
-                href: 'about',
-                name: 'footerlinkssss'
+                name: 'Personal Digital Branding'
             },
         ]
     },
