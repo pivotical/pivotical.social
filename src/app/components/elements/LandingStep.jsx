@@ -7,12 +7,13 @@ const LandingStep = ({ image, title, description,hastags }) => {
             <Image src={image} class="max-w-[245px] mx-auto hover:rounded-lg hover:shadow-xl hover:scale-105" alt="" />
             <h2 class="text-xl text-neutral-800 font-semibold">{title}</h2>
             <div className='h-20'>
+            <p  class="text-sm  pb-2 md:pb-2 text-blue-700 leading-relaxed">
+                {hastags}
+            </p>
             <p class="text-sm text-gray-700 leading-relaxed">
                 {description}
             </p>
-            <p class="text-sm text-blue-700 leading-relaxed">
-                {hastags}
-            </p>
+            
             </div>
 
 
