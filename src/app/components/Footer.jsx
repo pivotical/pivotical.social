@@ -1,6 +1,7 @@
 import React from 'react'
 import { footerlinks } from '../utils/data'
 import Link from 'next/link'
+import { PiArrowBendUpRightDuotone } from 'react-icons/pi';
 
 const Footer = () => {
     return (
@@ -13,8 +14,12 @@ const Footer = () => {
                                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">{section}</h2>
                                 <ul className="text-gray-500  font-medium mb-4 ">
                                     {sectionlinks?.map(({ href, id, name }) => (
-                                        <li key={id}>
-                                            <Link href={href} className="hover:underline">{name}</Link>
+                                        <li key={id} className=' '>
+                                            <div className='flex items-start justify-start hover:underline'>
+                                            <PiArrowBendUpRightDuotone className="mt-2 " />  
+                                             <Link href={href} className="ml-2 ">{name}</Link>
+
+                                            </div>
                                         </li>
                                     ))}
                                 </ul>
@@ -29,8 +34,8 @@ const Footer = () => {
                             </p>
                             <form action="#" className="mt-2">
                                 <div className="flex items-center">
-                                    <input type="email"  placeholder='example@gmail.com' className="w-full px-2 py-4 mr-2  bg-gray-100 shadow-inner rounded-md border border-gray-400 focus:outline-none" required />
-                                    <button  className="bg-black text-gray-200 px-5 py-2 rounded shadow " style={{ marginLeft: "-7.8rem" }}>Sign Up</button>
+                                    <input type="email" placeholder='example@gmail.com' className="w-full px-2 py-4 mr-2  bg-gray-100 shadow-inner rounded-md border border-gray-400 focus:outline-none" required />
+                                    <button className="bg-black text-gray-200 px-5 py-2 rounded shadow " style={{ marginLeft: "-7.8rem" }}>Sign Up</button>
                                 </div>
                             </form>
                         </div>

@@ -21,12 +21,12 @@ export const links = [
     {
         id: 4,
         name: 'Our Services',
-        link: '/#services'
+        link: '#services'
     },
     {
         id: 5,
         name: 'Team',
-        link: '/'
+        link: '#ourteam'
     },
     
 

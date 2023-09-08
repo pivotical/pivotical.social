@@ -6,7 +6,7 @@ const LandingStep = ({ image, title, description,hastags }) => {
         <div class="max-w-[280px] xl:max-w-[363px] space-y-6 sm:space-y-3 text-center ">
             <Image src={image} class="max-w-[245px] mx-auto hover:rounded-lg hover:shadow-xl hover:scale-105" alt="" />
             <h2 class="text-xl text-neutral-800 font-semibold">{title}</h2>
-            <div className='h-20'>
+            <div className='max-h-28 md:max-h-20'>
             <p class="text-sm text-gray-700 leading-relaxed">
                 {description}
             </p>
@@ -14,9 +14,8 @@ const LandingStep = ({ image, title, description,hastags }) => {
                 {hastags}
             </p>
             </div>
-
-
-        </div>)
+        </div>
+        )
 }
 
 export default LandingStep

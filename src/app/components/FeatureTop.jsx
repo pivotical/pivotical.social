@@ -6,7 +6,7 @@ import FeaturePic from '../../../public/sign-post.png'
 
 export default function FeatureTop() {
   return (
-    <main id="FeatureTop" class=" relative flex items-center  w-full h-auto md:pt-4 scroll-mt-2" >
+    <main id="FeatureTop" class=" relative flex items-center  w-full h-auto md:pt-4  scroll-mt-28" >
       <div className="inline-block z-0  bg-light p-8 md:px-16 md:pt-3 pt-0 w-full">
         <div className='flex flex-col  md:flex-row items-center justify-between w-full'>
 

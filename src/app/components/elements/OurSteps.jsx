@@ -7,10 +7,10 @@ import MainHeading from '../headings/MainHeading'
 
 const OurSteps = () => {
     return (
-        <section  id="OurMission" class="relative max-w-full  sm:mx-4 xl:mx-10 shadow-md sm:rounded-2xl overflow-hidden bg-gray-100">
+        <main  id="OurMission" class="relative max-w-full  sm:mx-4 xl:mx-10 overflow-hidden md:pt-10 bg-gray-100 scroll-mt-48 ">
             <div class="w-full py-16 flex flex-col  items-center">
                 <MainHeading text='Our Mission' className='text-4xl !text-center font-bold  ' />
-                <p className='my-4 text-base text-center md:text-lg font-light'>
+                <p className=' mx-9 md:mx-4 my-4 text-base text-center md:text-lg font-light'>
                     A Symphony of Artificial, Analytical, and Human Intelligence. At Pivotical, our story is all about you.
                 </p>
 
@@ -32,7 +32,7 @@ const OurSteps = () => {
 
                 </div>
             </div>
-        </section>
+        </main>
     )
 }
 

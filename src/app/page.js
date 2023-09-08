@@ -7,6 +7,7 @@ import SectionDivider from './components/SectionDivider'
 import dynamic from 'next/dynamic';
 import OurSteps from './components/elements/OurSteps'
 import Services from './components/Services'
+import OurTeam from './components/OurTeam'
 
 
 const OurClients = dynamic(() => import('./components/OurClients'), { ssr: false });
@@ -25,7 +26,6 @@ export default function Home() {
       <AboutUs />
       <SectionDivider />
 
-      {/* <OurMethod /> */}
       <OurSteps/>
       <SectionDivider />
 
@@ -35,6 +35,9 @@ export default function Home() {
       <Services/>
       <SectionDivider />
       
+      <OurTeam/>
+      <SectionDivider />
+
       <ContactUs/>
       <SectionDivider />
 

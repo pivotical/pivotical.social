@@ -36,7 +36,7 @@ export default function ContactUs() {
 
   return (
     //dropdown section code needs improvement
-    <main id='ContactUs' class="container  flex items-center my-8 mx-auto  md:px-3">
+    <main id='ContactUs' class="container  flex items-center my-8 mx-auto  md:px-3 scroll-mt-28">
     <div  className="inline-block z-0  bg-light p-8 md:px-16 md:pt-1 pt-0 w-full">
       <section class="mb-12">
         <div class="flex flex-wrap">
