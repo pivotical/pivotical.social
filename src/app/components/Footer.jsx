@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className="bg-white">
             <div className="w-full  md:w-full p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
-                    <div className="grid grid-cols-2 gap-8  sm:gap-6  sm:pl-6 sm:grid-cols-3">
+                    <div className="grid grid-cols-2 gap-10  sm:gap-24   sm:pl-6 sm:grid-cols-3">
                         {footerlinks.map(({ id, section, sectionlinks }) => (
                             <div key={id}>
                                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">{section}</h2>
