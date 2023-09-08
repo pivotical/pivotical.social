@@ -7,11 +7,11 @@ import MainHeading from '../headings/MainHeading'
 
 const OurSteps = () => {
     return (
-        <main  id="OurMission" class="relative max-w-full  sm:mx-4 xl:mx-10 overflow-hidden md:pt-10 bg-gray-100 scroll-mt-48 ">
-            <div class="w-full py-16 flex flex-col  items-center">
-                <MainHeading text='Our Mission' className='text-4xl !text-center font-bold  ' />
-                <p className='my-4 text-base text-center md:text-lg font-light'>
-                    Learn Create Innovate
+        <main  id="OurMission" class="relative max-w-full  sm:mx-4 xl:mx-10 overflow-hidden md:pt-10 bg-bgcolor scroll-mt-48 ">
+            <div class="w-full pt-4 md:pt-16 flex flex-col  items-center">
+                <MainHeading text='Our Mission' className='!text-4xl md:!text-5xl  !text-center font-bold  ' />
+                <p className='my-4  text-center text-textcolor md:text-2xl font-semibold'>
+                    Learn <span className='text-brandcolor' >&gt;&gt;</span> Create <span className='text-brandcolor' >&gt;&gt;</span> Innovate
                 </p>
 
                 <div class="relative w-full flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 px-4 xl:px-10 mt-16 sm:mt-8">

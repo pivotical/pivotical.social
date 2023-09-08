@@ -8,6 +8,7 @@ const Button = ({
   small,
   icon: Icon,
   classnames,
+  paddingx
 }) => {
   return (
     <button
@@ -24,11 +25,11 @@ const Button = ({
       transition
       text-lg 
       w-full
-      ${outline ? "bg-white" : "bg-black"}
-      ${outline ? "border-black" : "border-black"}
+      ${outline ? "bg-white" : "bg-brandcolor"}
+      ${outline ? "border-black" : "border-brandcolor"}
       ${outline ? "text-black" : "text-white"}
       ${small ? "text-sm" : "text-md"}
-      ${small ? "py-1" : "py-2"}
+      ${paddingx ? "py-1" : "py-2"}
       ${small ? "px-1" : "px-2"}
       ${small ? "font-light" : "font-medium"}
       ${small ? "border-[1px]" : "border-2"}

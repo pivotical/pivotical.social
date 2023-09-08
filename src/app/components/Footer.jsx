@@ -15,10 +15,9 @@ const Footer = () => {
                                 <ul className="text-gray-500  font-medium mb-4 ">
                                     {sectionlinks?.map(({ href, id, name }) => (
                                         <li key={id} className=' '>
-                                            <div className='flex items-start justify-start hover:underline'>
+                                            <div className='flex items-start justify-start hover:underline hover:text-brandcolor transition hover:scale-105'>
                                             <PiArrowBendUpRightDuotone className="mt-2 " />  
                                              <Link href={href} className="ml-2 ">{name}</Link>
-
                                             </div>
                                         </li>
                                     ))}

@@ -13,8 +13,8 @@ const OurClients = () => {
             <div className="inline-block z-0  bg-light p-8 md:px-16 md:pt-3 pt-0 w-full">
                 <div className='flex flex-col md:flex-row items-center justify-between w-full'>
                     <div className="w-full mt-0 md:mt-4  flex flex-col items-center  self-center px-4 lg:px-0">
-                        <MainHeading text='Our Clients' className='!text-3xl md:!text-4xl !text-center font-bold lg:px-72' />
-                        <p className='mt-4 mb-16 text-base md:text-lg md:text-center font-light  lg:px-36'>
+                        <MainHeading text='Our Clients' className='!text-4xl md:!text-5xl !text-center font-bold lg:px-72' />
+                        <p className='mt-4 mb-16 text-base md:text-lg md:text-center font-light  lg:px-36 hover:text-brandcolor transition hover:scale-105'>
                             We offera range of social media marketing services to help you grow your online presence.From content creation to audience engagement,we've got you covered.
                         </p>
                        
@@ -25,7 +25,7 @@ const OurClients = () => {
                                 onReady={() => console.log('I am ready')}
                             >
                                 {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((item) => (
-                                    <div key={item} className='shadow-lg rounded-2xl bg-slate-100 h-32 w-44 flex items-center justify-center'>
+                                    <div key={item} className='shadow-md shadow-extracolor rounded-2xl bg-bgcolor h-32 w-44 flex items-center justify-center'>
                                         <Image src={FeaturePic}
                                             className='h-36 rounded w-full object-cover object-center'
                                             quality={100}

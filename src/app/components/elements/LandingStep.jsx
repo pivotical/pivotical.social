@@ -3,14 +3,14 @@ import React from 'react'
 
 const LandingStep = ({ image, title, description,hastags }) => {
     return (
-        <div class="max-w-[280px] xl:max-w-[363px] space-y-6 sm:space-y-3 text-center ">
-            <Image src={image} class="max-w-[245px] mx-auto hover:rounded-lg hover:shadow-xl hover:scale-105" alt="" />
-            <h2 class="text-xl text-neutral-800 font-semibold">{title}</h2>
-            <div className='h-20'>
-            <p  class="text-sm  pb-2 md:pb-2 text-blue-700 leading-relaxed">
+        <div class="max-w-[400px] xl:max-w-[363px] space-y-6 sm:space-y-3 text-center ">
+            <Image src={image} class="max-w-[245px] mx-auto hover:rounded-lg hover:shadow-xl hover:scale-105 transition shadow-text-brandcolor" alt="" />
+            <h1 class="text-3xl text-textcolor font-bold">{title}</h1>
+            <div className='min-h-[13rem]  '>
+            <p  class="text-lg  pb-2 md:pb-2 text-brandcolor leading-relaxed">
                 {hastags}
             </p>
-            <p class="text-sm text-gray-700 leading-relaxed">
+            <p class="text-base text-textcolor leading-relaxed hover:scale-105 transition">
                 {description}
             </p>
             

@@ -34,6 +34,45 @@ export const links = [
 
 
 ]
+
+
+export const mobilelinks = [
+    {
+        id: 1,
+        name: 'home',
+        link: '/'
+    },
+    {
+        id: 2,
+        name: 'Our Story',
+        link: '/about'
+    },
+    {
+        id: 3,
+        name: 'Our Mission',
+        link: '#OurMission'
+    },
+    {
+        id: 4,
+        name: 'Our Services',
+        link: '#services'
+    },
+    {
+        id: 4,
+        name: 'Our Team',
+        link: '#ourteam'
+    },
+    {
+        id: 5,
+        name: 'Testimonials',
+        link: '/'
+    },
+    
+
+
+
+
+]
 export const footerlinks = [
     {
         id: 1,
@@ -131,7 +170,7 @@ export const ourMethods = [
 export const serviceList=[
 {
     title:"Personal Digital Branding",
-    description:" some descriptionn some descriptionnsome descriptionnsome descriptionnsome descriptionnsome descriptionn",
+    description:" this is some sample text in here ",
     symbol:"bi bi-search",
     path:"M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
 },
@@ -149,13 +188,13 @@ export const serviceList=[
 },
 {
     title:"Web-Development",
-    description:"",
+    description:"this is some sample text in here",
     symbol:"bi bi-card-checklist",
     path:"M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"
 },
 {
     title:"Data Analytics",
-    description:"",
+    description:"this is some sample text in here",
     symbol:"bi bi-wallet2",
     path:"M12.136.326A1.5 1.5 0 0 1 14 1.78V3h.5A1.5 1.5 0 0 1 16 4.5v9a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 13.5v-9a1.5 1.5 0 0 1 1.432-1.499L12.136.326zM5.562 3H13V1.78a.5.5 0 0 0-.621-.484L5.562 3zM1.5 4a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-13z"
 },
@@ -166,3 +205,45 @@ export const serviceList=[
     path:"M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"
 }
 ]
+export const teamlist=[
+    {
+      name: "Hentoni Doe",
+      position: "CEO-Founder",
+      image: "https://tailus.io/sources/blocks/classic/preview/images/woman1.jpg",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        instagram: "#",
+      },
+    },
+    {
+      name: "Anabelle Doe",
+      position: "Chief Operations Officer",
+      image: "https://tailus.io/sources/blocks/classic/preview/images/woman.jpg",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        instagram: "#",
+      },
+    },
+    {
+        name: "Hentoni Doe",
+        position: "CEO-Founder",
+        image: "https://tailus.io/sources/blocks/classic/preview/images/woman1.jpg",
+        social: {
+          linkedin: "#",
+          twitter: "#",
+          instagram: "#",
+        },
+      },
+    {
+      name: "Anabelle Doe",
+      position: "Chief Operations Officer",
+      image: "https://tailus.io/sources/blocks/classic/preview/images/woman.jpg",
+      social: {
+        linkedin: "#",
+        twitter: "#",
+        instagram: "#",
+      },
+    },
+  ];
