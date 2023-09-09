@@ -23,7 +23,7 @@ export default function Services() {
 
             {serviceList.map((service) => (
               <div
-                className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp "
+                className="flex-shrink px-4   max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp "
                 data-wow-duration="1s"
                 style={{
                   visibility: "visible",
@@ -31,7 +31,7 @@ export default function Services() {
                   animationName: "fadeInUp"
                 }}
               >
-                <div className="py-8 px-12 mb-12 bg-gray-50 shadow-extracolor shadow-sm border-b border-gray-100 transform transition duration-300 ease-in-out text-textcolor hover:text-white  hover:bg-primarycolor hover:-translate-y-2">
+                <div className="py-8 px-12 mb-12 rounded-lg bg-gray-50 shadow-extracolor shadow-sm border-b border-gray-100 transform transition duration-300 ease-in-out text-textcolor hover:text-white  hover:bg-primarycolor hover:-translate-y-2">
                   <div className="inline-block  mb-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

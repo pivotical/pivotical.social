@@ -23,10 +23,10 @@ export default function Home() {
       <FeatureTop />
       <SectionDivider />
 
-      <AboutUs />
+      <OurSteps/>
       <SectionDivider />
 
-      <OurSteps/>
+      <AboutUs />
       <SectionDivider />
 
       <OurClients/>
