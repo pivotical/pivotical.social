@@ -6,9 +6,6 @@ export default function Services() {
   return (
 
     <>
-
-
-
       <div
         id="services"
         className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-bgcolor scroll-mt-10"
@@ -17,7 +14,7 @@ export default function Services() {
 
           <header className="text-center mx-auto mb-12 lg:px-20">
             <MainHeading text='Our Solutions' className='!text-4xl md:!text-5xl  !text-center font-bold mb-6 ' />
-            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 hover:text-brandcolor transition hover:scale-105">
+            <p className="text-brandcolor leading-relaxed  font-semibold  text-lg mx-auto pb-2 hover:text-brandcolor transition hover:scale-105">
               Save time managing advertising &amp; Content for your business.
             </p>
           </header>

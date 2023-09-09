@@ -25,6 +25,7 @@ const NavBar = () => {
                 </ul>
                 <div className='w-auto hidden md:flex'>
                     <Button
+            
                         paddingx
                         icon={<FiArrowUpRight size={24} className="w-6 ml-1" />}
                         classnames={`hover:text-black hover:bg-white hover:scale-105  `}

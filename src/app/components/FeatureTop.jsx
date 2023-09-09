@@ -22,7 +22,7 @@ export default function FeatureTop() {
               <MainHeading text='Discover the power of Social Media marketing for your business.'
                 className='!text-3xl md:!text-5xl !text-center md:!text-left font-bold' />
 
-              <p className='my-4 text-base text-center md:text-lg md:text-left font-light'>
+              <p className='my-4 text-base text-center md:text-lg md:text-left font-normal'>
                 Our social media marketing service helps business and individual reach their target audiance, increace brand visibility, drive engagement.
               </p>
             </div>
