@@ -2,7 +2,7 @@ import React from 'react'
 import MainHeading from './headings/MainHeading'
 import ServiceCards from './elements/ServiceCards'
 import Image from 'next/image'
-import FeaturePic from '../../../public/sign-post.png'
+import FeaturePic from '../../../public/FeatureTop.png'
 
 export default function FeatureTop() {
   return (
@@ -13,6 +13,7 @@ export default function FeatureTop() {
           <div class=" h-auto  md:w-1/2 md:pl-20" >
             <Image src={FeaturePic}
               quality={100}
+              width={500}
               priority={true}
               alt="Idea of Pivotical" />
           </div>
