@@ -53,7 +53,7 @@ export default function ContactUs() {
 
 
             <div className='w-full flex items-center  md:w-1/2'>
-              <div className="isolate w-full  bg-white px-6 py-12  lg:px-8">
+              <div className="isolate w-full rounded-lg bg-white px-6 py-12  lg:px-8">
                 <div
                   className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
                   aria-hidden="true"
@@ -75,12 +75,12 @@ export default function ContactUs() {
                   <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                     Contact us
                   </h2>
-                  <p className="mt-2 text-lg leading-8 text-gray-600">
+                  <p className="mt-2 text-lg leading-8 text-brandcolor">
                     Lets connect and start our journey!
                   </p>
                 </div>
                 <form
-                  className="mx-auto mt-10 max-w-xl sm:mt-10"
+                  className="mx-auto mt-10 max-w-xl sm:mt-10 md:rounded-lg"
                   ref={form}
                   onSubmit={sendEmail}
 
@@ -175,11 +175,10 @@ export default function ContactUs() {
                                 {serviceList.map((service) => (
                                   <Menu.Item>
                                     {({ active }) => (
-
                                       <a
                                         name="service"
                                         value={formInfo.service}
-                                        onClick={() => setFormInfo({ ...formInfo, service: service })}
+                                        onClick={() => setFormInfo({ ...formInfo, service: service.title })}
                                         className={classNames(
                                           active
                                             ? "bg-gray-100 text-gray-900"
@@ -187,7 +186,7 @@ export default function ContactUs() {
                                           "block px-4 py-2 text-sm"
                                         )}
                                       >
-                                        {service}
+                                        {service.title}
                                       </a>
 
                                     )}

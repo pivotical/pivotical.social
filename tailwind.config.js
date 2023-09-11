@@ -15,7 +15,7 @@ module.exports = {
       },
       colors:{
         extracolor: "#9495C0",
-        primarycolor:"#876f84",
+        primarycolor:"#736682",
         bgcolor:'#f3f2f1',
         brandcolor:'#6B3FA0',
         textcolor:"#251827",

@@ -6,9 +6,6 @@ export default function Services() {
   return (
 
     <>
-
-
-
       <div
         id="services"
         className="section relative pt-20 pb-8 md:pt-16 md:pb-0 bg-bgcolor scroll-mt-10"
@@ -17,7 +14,7 @@ export default function Services() {
 
           <header className="text-center mx-auto mb-12 lg:px-20">
             <MainHeading text='Our Solutions' className='!text-4xl md:!text-5xl  !text-center font-bold mb-6 ' />
-            <p className="text-gray-500 leading-relaxed font-light text-xl mx-auto pb-2 hover:text-brandcolor transition hover:scale-105">
+            <p className="text-brandcolor leading-relaxed  font-semibold  text-lg mx-auto pb-2 hover:text-brandcolor transition hover:scale-105">
               Save time managing advertising &amp; Content for your business.
             </p>
           </header>
@@ -26,7 +23,7 @@ export default function Services() {
 
             {serviceList.map((service) => (
               <div
-                className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp "
+                className="flex-shrink px-4   max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp "
                 data-wow-duration="1s"
                 style={{
                   visibility: "visible",
@@ -34,7 +31,7 @@ export default function Services() {
                   animationName: "fadeInUp"
                 }}
               >
-                <div className="py-8 px-12 mb-12 bg-gray-50 shadow-extracolor shadow-sm border-b border-gray-100 transform transition duration-300 ease-in-out text-textcolor hover:text-white  hover:bg-primarycolor hover:-translate-y-2">
+                <div className="py-8 px-12 mb-12 rounded-lg bg-gray-50 shadow-extracolor shadow-sm border-b border-gray-100 transform transition duration-300 ease-in-out text-textcolor hover:text-white  hover:bg-primarycolor hover:-translate-y-2">
                   <div className="inline-block  mb-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
