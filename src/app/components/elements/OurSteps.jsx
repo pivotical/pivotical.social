@@ -16,19 +16,19 @@ const OurSteps = () => {
 
                 <div class="relative w-full flex flex-col lg:flex-row items-center justify-between space-y-12 lg:space-y-0 px-4 xl:px-10 mt-16 sm:mt-8">
                     <LandingStep image={StepsPic2} title={"Learn"} description={"We dive deep to research and understand our client’s exact needs and expectations."} hastags={"#CustomerObsession #Ownership"} />
-                    <Image
+                    {/* <Image
                         src={ArrowPic}
                         class="hidden lg:inline-block absolute top-32 left-64 xl:left-[22rem] w-24 xl:w-[9.5rem]"
                         alt=""
-                    />
-                    <LandingStep image={StepsPic2} title={"Create"} description={"We allocate resources (e.g., initial test Ads fund) to develop cutting-edge solutions meticulously tailored to make a significant mark on the digital landscape, generating unprecedented buzz across the internet and social media platforms."} hastags={" #CreativityUnleashed #ThinkBIG"} />
+                    /> */}
+                    <LandingStep image={StepsPic2} title={"Create"} description={"We allocate resources (e.g., initial test Ads fund) to develop cutting-edge solutions meticulously tailored to make a significant mark on the digital landscape, generating unprecedented buzz across the internet and social media platforms."} hastags={"#InventandSimplify #EarnTrust #Frugality"} />
 
-                    <Image
+                    {/* <Image
                         src={ArrowPic}
                         class="hidden lg:inline-block absolute top-32 right-64 xl:right-[22rem] w-24 xl:w-[9.5rem]"
                         alt=""
-                    />
-                    <LandingStep image={StepsPic2} title={"Innovate "} description={"We harness data-driven insights, employing in-depth analytics to fuel tailored ongoing innovation, solidifying our position as the premier marketing campaign that surpasses even the most advanced algorithms. "} hastags={"#BusinessInnovation"} />
+                    /> */}
+                    <LandingStep image={StepsPic2} title={"Innovate "} description={"We harness data-driven insights, employing in-depth analytics to fuel tailored ongoing innovation, solidifying our position as the premier marketing campaign that surpasses even the most advanced algorithms. "} hastags={"#BiasforAction #ThinkBIG #DeliverResults"} />
 
                 </div>
             </div>

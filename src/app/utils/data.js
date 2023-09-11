@@ -20,7 +20,7 @@ export const links = [
     },
     {
         id: 4,
-        name: 'Our Services',
+        name: 'Our Solutions',
         link: '/#services'
     },
     {

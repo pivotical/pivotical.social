@@ -29,8 +29,8 @@ export default function Home() {
       <AboutUs />
       <SectionDivider />
 
-      <OurClients/>
-      <SectionDivider />
+      {/* <OurClients/>
+      <SectionDivider /> */}
 
       <Services/>
       <SectionDivider />
